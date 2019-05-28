@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Knowledge Basket |  Signup</title>
+<link rel="icon" href="img/favicon-copy.png" type="image/png">
+<style>
+body {
+  font: 50 18px Calibri,sans-serif;
+  background-color: white;
+  color: #565656;
+}
+
+* {
+  box-sizing: border-box;
+ 
+}
+
+h1 {
+  color: #565656;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 1px;
+  background-color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px auto 30px auto;
+  display: block;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #FFF;
+  font-size: 14px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #FFF;
+
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #f7aa32;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 12%;
+  border: 1px solid #f7aa32;
+  border-radius: 7px;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 550;
+
+}
+
+.registerbtn:hover {
+  opacity: 1;
+  background-color: #FFF;
+  color: #f7aa32;
+  border: 1px solid;
+  transition: 0.2s;
+
+}
+
+
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+  
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  
+}
+
+
+</style>
+</head>
+<body>
+<form action="/action_page.php">
+<a class="logo" href="index.html"><img src="img/logo-two.png" alt=""></a>
+ <hr>
+  <div class="container">
+  
+    <h1>Try The Knowledge Basket<BR>
+    FREE for 2 Weeks!</h1>
+    <p>Fill in the form to get started</p>
+   
+
+    <input type="text" placeholder="First Name" name="first" required>
+
+    <input type="text" placeholder="Last Name" name="last" required>
+
+    <input type="text" placeholder="Email Address" name="email" required>
+
+    <input type="text" placeholder="Phone Number" name="number" required>
+
+    <input type="text" placeholder="Country" name="country" required>
+
+       <hr>
+
+    <button type="submit" class="registerbtn">Get Started</button>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+  </div>
+  
+  <div class="container signin">
+    <p>Are you with a University or work in Government? <a href="#">Contact us</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
